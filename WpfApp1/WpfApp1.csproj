@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\compost.jpeg" />
+    <None Remove="img\heart.png" />
+    <None Remove="splash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\compost.jpeg" />
+    <Resource Include="img\heart.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SplashScreen Include="img\splash.png" />
+  </ItemGroup>
+
+</Project>
